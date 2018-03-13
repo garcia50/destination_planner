@@ -14,6 +14,12 @@ gem 'sass-rails', '>= 3.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails' 
+  gem 'capybara'
+  gem 'launchy'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'pry'
 end
 
 group :development do
